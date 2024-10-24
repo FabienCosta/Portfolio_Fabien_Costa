@@ -51,7 +51,12 @@
 
     &_field {
       border-radius: 5px;
+      padding: 2%;
       border: 1px solid grey;
+
+      @media screen and (max-width: 960px) {
+        padding: 3%;
+      }
     }
 
     &_button {
@@ -61,6 +66,11 @@
       color: $primary-color;
       padding: 1.5% 0% 1.5% 0%;
       font-weight: bold;
+      cursor: pointer;
+
+      @media screen and (max-width: 960px) {
+        height: 3em;
+      }
     }
   }
 }

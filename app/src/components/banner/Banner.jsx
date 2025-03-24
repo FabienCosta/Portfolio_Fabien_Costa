@@ -1,7 +1,7 @@
 import React from "react";
 import "./banner.scss";
 import img from "../../assets/img/homepage.webp";
-import Fabien from "../../assets/img/Fabien.webp";
+import Fabien from "../../assets/img/fabienPro.webp";
 
 // Composant Banner
 const Banner = () => {
